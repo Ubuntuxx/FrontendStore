@@ -22,7 +22,6 @@ body {
 
 p {
     font-size: 1.8rem;
-    font-family: Arial, Helvetica, sans-serif;
     color: var(--blanco);
 }
 
@@ -74,6 +73,10 @@ h3 {
     gap: 2rem;
 }
 
+.navegacion a:hover {
+    color: var(--blanco);
+}
+
 .navegacion__enlace {
     font-family: var(--fuentePrincipal);
     color: var(--blanco);
@@ -82,4 +85,17 @@ h3 {
 
 .navegacion__enlace, navegacion__enlace--activo:hover {
     color: var(--secundario);
+}
+
+.footer {
+    background-color: var(--primarioobscuro);
+    padding: 1rem 0;
+    margin-top: 2rem;
+    text-align: center;
+    font-family: var(--fuentePrincipal);
+    font-size: 2.2rem;
+}
+
+.footer__texto {
+
 }
